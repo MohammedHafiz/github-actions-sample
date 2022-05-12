@@ -1,6 +1,6 @@
-name:'THANK YOU ACTION'
-description:'Say "Thank you" to new pull request'
-author:'Hafiz'
+name: 'Thank You Action'
+description: 'Say "Thank You" to new pull requests'
+author: 'Hafiz'
 
 inputs:
   GITHUB_TOKEN:
@@ -11,5 +11,5 @@ inputs:
     required: true
 
 runs:
-  using: 'node16'
+  using: 'node12'
   main: 'dist/index.js'
